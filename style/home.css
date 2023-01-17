@@ -62,3 +62,9 @@ body{
 h1{
     justify-items: flex-end;
 }
+.div-img{
+    margin-top: 10px;
+}
+.div-img img{
+    width: 1460px;
+}
