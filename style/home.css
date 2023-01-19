@@ -33,6 +33,7 @@ body{
     display: flex;
     align-items:flex-start;
     justify-content: center;
+    justify-items: center;
 
 }
 .overlay{
@@ -41,10 +42,10 @@ body{
     opacity: 0.9;
 
 }
-.background>h1{
+.background> .head>h1{
     color: rgb(255, 243, 226);
     font-weight: bold;
-    font-size: 625%;
+    font-size: 650%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .div-1{
@@ -53,7 +54,7 @@ body{
     text-align: center;
     margin-top :10px; 
     justify-content:space-evenly;
-    
+    flex-flow: wrap;
 
     
     
@@ -66,7 +67,7 @@ body{
 .card-img-top{
     height: 1250%;
 }
-h1{
+.head>h1{
     justify-items: flex-end;
 }
 .div-img{
